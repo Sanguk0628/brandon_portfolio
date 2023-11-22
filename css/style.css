@@ -331,7 +331,6 @@ hr {
     overflow: hidden;
     transition: all 250ms ease-out;
     border: 0.3px solid var(--color-800);
-
 }
 
 .projects.anim-out{

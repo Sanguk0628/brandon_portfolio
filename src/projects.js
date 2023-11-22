@@ -16,16 +16,14 @@ categories.addEventListener('click', (event) => {
     filterProjects(filter);
 });
 
-
     function activeHandler(target){
     const active = document.querySelector('.category--selected');
     active.classList.remove('category--selected');
     target.classList.add('category--selected');
 }
 
-
     function filterProjects(filter){
-    projects.forEach(filter => {
+    projects.forEach((project) => {
         if(filter === 'all' || filter === project.dataset.type){
             project.style.display = 'block';
         } else {
