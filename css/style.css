@@ -7,13 +7,6 @@
 --color-accent-variant: var(--color-orange);
 --color-text: var(--color-t50);
 
-/* Background */
---home-bg-gradient: linear-gradient(
-    180deg, 
-    rgba(8,26, 60,1) 0%,
-    rgba(5,10,19,1) 100%
-    );
-
     /* Colors */
 --color-white: #ffffff;
 --color-black: #050a13;
