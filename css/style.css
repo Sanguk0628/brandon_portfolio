@@ -632,7 +632,7 @@ hr {
     }
 
     .major{
-        justify-content: center;
+        justify-content: start;
     }
 
     .arrow-up{
